@@ -1,22 +1,9 @@
-Graph graph = new Graph()
+import Graph.GraphMenu
+import Menu.Menu
 
-graph.putNode("a")
-graph.putNode("b")
-graph.putNode("c")
-graph.putNode("d")
-graph.putNode("e")
+Menu menu = new GraphMenu()
 
-graph.putEdge("a", "b")
-graph.putEdge("b", "d")
-graph.putEdge("a", "c")
-graph.putEdge("d", "e")
-
-graph.print()
-
-graph.dfs("a")
-
-graph.bfs("a")
-
+menu.run()
 
 
 

@@ -1,3 +1,5 @@
+package Graph
+
 class Graph {
 
     LinkedHashMap<String, TreeSet<String>> data = new LinkedHashMap<>()
